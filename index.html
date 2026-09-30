@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!--<p id="miParrafo">Hola <b>Bea</b></p>-->
+<input type="text" id="miInput" value="Escribe aquí">
+<!--
+   <script>
+    alert("Bienvenido a mi pagina web")
+    var nombre= prompt("¿Cual es tu nombre? Escribe aqui:" );
+    alert("Hola " + nombre)
+-->
+<script>
+ //var contenido = document.getElementById("miParrafo").innerHTML="Adios <i>mundo</i>";
+// alert(contenido); // Muestra: Hola <b>Bea</b> (muestra con etiquetas)
+
+//var texto = document.getElementById("miParrafo").textContent;
+//alert(texto); // Muestra: Hola Bea (solo el contenido del texto)
+
+//document.getElementById("miParrafo").textContent = "Adiós <i>mundo</i>";
+// El párrafo muestra literalmente: Adiós <i>mundo</i> (sin
+//cursiva, se ve la etiqueta)
+
+//Ejemplo de Value
+var campo = document.getElementById("miInput");
+alert(campo.value); // Muestra: Escribe aquí
+campo.value = "Nuevo valor"; // Cambia el contenido del campo
+
+
+   </script> 
+</body>
+</html>
